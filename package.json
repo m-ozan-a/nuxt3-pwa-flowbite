@@ -11,9 +11,12 @@
     "@nuxtjs/tailwindcss": "^6.6.0",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
-    "nuxt": "^3.3.1"
+    "nuxt": "^3.3.1",
+    "nuxt-icon": "^0.3.3"
   },
   "dependencies": {
-    "flowbite": "^1.6.4"
+    "@pinia/nuxt": "^0.4.7",
+    "flowbite": "^1.6.4",
+    "pinia": "^2.0.33"
   }
 }

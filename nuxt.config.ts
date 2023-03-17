@@ -1,9 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     darkMode: 'class',
     modules: [
+        '@pinia/nuxt',
         '@vueuse/nuxt',
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        'nuxt-icon'
     ],
     css: ['~/assets/css/main.css'],
     postcss: {
@@ -12,11 +13,12 @@ export default defineNuxtConfig({
           autoprefixer: {},
         },
     },
-    variants: {
-        fill: [],
-        extend: {
-          borderColor: ['focus-visible'],
-          textDecoration: ['none'],
-        }
-    },        
+    vite: {
+        optimizeDeps: {
+          include: [
+            'vue',
+            'pinia',
+          ],
+        },
+    },
 })
