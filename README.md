@@ -6,6 +6,7 @@ Nuxt 3 + Tailwind 6 + Flowbite Starter Kit.
 
 - [Nuxt 3](https://v3.nuxtjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- Nuxt PWA Module (https://github.com/kevinmarrec/nuxt-pwa-module)
 - UI set [Flowbite Nuxt](https://flowbite.com/docs/getting-started/nuxt-js/)
 - Icon set [Nuxt Icon](https://github.com/nuxt-modules/icon)
 - State management with [Pinia](https://pinia.vuejs.org/)
