@@ -1,4 +1,4 @@
-# Joyfoop PWA Boilerplate
+# Joyfoop Nuxt 3 PWA Boilerplate
 
 Nuxt 3 + Tailwind 6 + Flowbite Starter Kit.
 
