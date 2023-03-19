@@ -23,8 +23,8 @@ Nuxt 3 + Tailwind 6 + Flowbite Starter Kit.
 ├── middleware        # Route middleware
 ├── plugins           # Plugins
 ├── server            # Server
-├── stores            # Stores
-├── ui                # UI Component Library
+├── stores            # Stores Pinia
+├── server            # Server folder
 ```
 
 
